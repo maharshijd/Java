@@ -13,10 +13,10 @@ public class Calculator {
     }
 
     public static void main(){
-        System.out.println("Calculator:\n");
+        //System.out.println("Calculator:\n");
         int a =10;
         int b=5;
-        int sum = a+b;
+        int sum = add(a,b);
         System.out.println(sum);
     }    
 }
