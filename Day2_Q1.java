@@ -1,3 +1,4 @@
+package day2;
 //WAP in java to print your name, prn, address in 3 different lines
 
 public class Day2_Q1 {
