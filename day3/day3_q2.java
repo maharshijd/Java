@@ -16,7 +16,7 @@ class Calculator {
     void calculate() {
         switch (choice) {
             case '+':
-                System.out.println("Sum = " + (a + b));
+                System.out.println("Addition: "+ a + b);
                 break;
 
             case '-':
