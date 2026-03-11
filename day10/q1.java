@@ -127,7 +127,7 @@ public class q1 {
 
         ArrayList<Item> list = new ArrayList<>(inventory.values());
 
-        // Sort by price
+        
         Collections.sort(list, new Comparator<Item>() {
             public int compare(Item i1, Item i2) {
                 return Double.compare(i1.getBasePrice(), i2.getBasePrice());
